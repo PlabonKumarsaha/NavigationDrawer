@@ -29,11 +29,13 @@
 
     </group>
 
-    <group android:checkableBehavior="single">
+
 
         <item android:title="Profile">
 
             <menu>
+
+                <group android:checkableBehavior="single">
 
                 <item
                     android:id="@+id/nav_login"
@@ -53,11 +55,12 @@
                     android:icon="@drawable/ic_logout"
                     />
 
+                </group>
             </menu>
 
         </item>
 
-    </group>
+
 
     <item android:title="Communicate">
 
